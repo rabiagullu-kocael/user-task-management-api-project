@@ -63,7 +63,7 @@ Temel mimari kararlar:
 Proje içerisinde hassas bilgiler `.env` dosyasında tutulur:
 
 ```env
-MONGODB_URL=mongodb+srv://username:password@cluster.mongodb.net
+MONGODB_URL=" "
 DATABASE_NAME=user_task_db
 SECRET_KEY=your_secret_key
 ALGORITHM=HS256
