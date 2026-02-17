@@ -77,9 +77,8 @@ Bu yaklaşımın amacı:
 * 12-Factor App prensiplerine uygunluk
 
 ---
-## Swagger Arayüzü
 
-![Swagger UI](images/genel.png)
+
 
 
 # 🔐 Kimlik Doğrulama Mekanizması
@@ -100,10 +99,7 @@ Veritabanına kaydedilen yapı:
 }
 ```
 
-![Kayıt ](images/kayit_olma.png)
 
-
-![Kayıt Çıktı](kayit_cikti/genel.png)
 
 ---
 
@@ -123,7 +119,7 @@ Veritabanına kaydedilen yapı:
 
 ```
 
-![Giriş](images/giris_yap.png)
+
 
 JWT ile sistem stateless çalışır; sunucu tarafında session tutulmaz.
 
@@ -142,7 +138,7 @@ Bu yapı FastAPI’nin Dependency Injection sistemini kullanır.
 
 ---
 
-![Protected Erişim](images/authorize.png)
+
 
 # 📋 Görev (Task) İşlemleri
 
@@ -165,11 +161,7 @@ Veritabanı yapısı:
 }
 ```
 
-![Görev Tanımlama](images/gorev_tanimlama.png)
 
-
-
-![Tanımlama Sonucu](images/gorev_cikti.png)
 
 ---
 
@@ -228,11 +220,7 @@ Sorting parametresinin whitelist ile sınırlandırılması production ortamınd
 
 ---
 
-![Filtreleme](images/filtreleme.png)
 
-
-
-![Filtre Çıktı](images/filtre_cikti.png)
 
 # 🔐 Güvenlik Prensipleri
 
